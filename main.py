@@ -121,10 +121,37 @@ s = 'Olá, mundo!'
 # print(palavras[::-1])
 # print('- '.join(palavras[::-1]))
 
-email = 'Murilo@fiap.com'
-usuario, sep, dominio = email.partition('@')
-print(usuario, sep, dominio);
+# email = 'Murilo@fiap.com'
+# usuario, sep, dominio = email.partition('@')
+# print(usuario, sep, dominio);
 
+# '42'.zfill(5) #'00042'
+# '42'.rjust(5,  "*") #'***42'
+# '42'.ljust(5, "-") #'42---'
+#
+# tabela = str.maketrans("aeiou", "@#$%&")
+#
+# print("substituir vogais".translate(tabela))
+#
+# #'s5bst3t53r v4g13s'
 
-
-
+# bicycles = ['treck', 'cannondale', 'redline', 'specialazed']
+# print(bicycles)
+# bicycles[0] = 'bmx'
+# print(bicycles[0])
+# bicycles.append('harley')
+# print(bicycles)
+# bicycles.insert(1, 'ducati')
+# print(bicycles)
+# del bicycles[2]
+# print(bicycles)
+#
+# tracks = ['breath', 'on the run', 'time', ]
+# lista = tracks
+# print(lista)
+# tracks.remove('breath')
+# tracks.remove('on the run')
+# tracks.append('roles')
+#
+#
+# print(lista)
