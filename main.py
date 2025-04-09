@@ -155,3 +155,15 @@ s = 'Olá, mundo!'
 #
 #
 # print(lista)
+
+# opcao = 'a'
+# #
+# # match opcao:
+# #      case 'a':
+# #          print("opcao A selecionada")
+# #      case 'b':
+# #          print("opcao B selecionada")
+# #      case _:
+# #       print("opção invalidada")
+
+
