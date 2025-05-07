@@ -157,6 +157,7 @@ s = 'Olá, mundo!'
 #
 # print(lista)
 
+<<<<<<< HEAD
 # fibonacci = [0, 1]
 #
 # n = int(input('digite um numero: '))
@@ -328,3 +329,16 @@ vogais = ['a', 'e', 'i', 'o', 'u']
 
 def vogal():
     if
+=======
+# opcao = 'a'
+# #
+# # match opcao:
+# #      case 'a':
+# #          print("opcao A selecionada")
+# #      case 'b':
+# #          print("opcao B selecionada")
+# #      case _:
+# #       print("opção invalidada")
+
+
+>>>>>>> 1b3b550fd757c3e64a80c313832ef837ecb018b5
