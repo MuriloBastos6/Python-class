@@ -9,6 +9,7 @@
 # _ = '!@-' * 20
 #
 # print(_  + titulo + _)
+from pyexpat.errors import messages
 
 # soma = 7 + 5
 #
@@ -155,3 +156,175 @@ s = 'Olá, mundo!'
 #
 #
 # print(lista)
+
+# fibonacci = [0, 1]
+#
+# n = int(input('digite um numero: '))
+#
+# for i in range(2, n):
+#     fibonacci.append(fibonacci[i - 1] + fibonacci[i - 2])
+# print(fibonacci)
+
+
+# fibonacci = [0, 1]
+# a = 0
+# b = 1
+# n = 2
+#
+# while n < 10:
+#     n += 1
+#     c = a + b
+#     fibonacci.append(c)
+#     a = b
+#     b = c
+# print(fibonacci)
+
+
+# def  saudacao(nome):
+#     print(f'Olá {nome}, seu noia!')
+#
+# saudacao('batata')
+
+# def  saudacao(nome):
+#     '''
+#     ESSA FUNCÇÂO SERVE PARA SAUDAR UM ALUNO NOIA
+#     '''
+#     return (f'Olá {nome}, seu noia!')
+#
+# mensagem = saudacao('batata')
+#
+# print(mensagem)
+
+# def calcular_media(a, b):
+#     return (a + b) / 2
+#
+# n1 = float(input('digite sua media:'))
+# n2 = float(input('digite sua media:'))
+#
+# media = calcular_media(a=n1, b=n2)
+#
+# print(media)
+
+# def somar(a = 2, b = 3):
+#     return a + b
+#
+# resultado = somar()
+# print(resultado)
+
+# def altera_a(a):
+#     a = a + 1
+#     print(a)
+# a = 2
+# altera_a(a)
+#
+# print(a)
+
+# def alterar_lista(lista):
+#     lista.append(2)
+#     lista.append(5)
+#
+#     print(lista)
+#
+# lista = [1, 7, 8, 3]
+# alterar_lista(lista[:])
+#
+# print(lista)
+
+# def soma_total(*numeros):
+#     '''
+#     Esta função aceita um numero arbitrário de argumentos e retorna a soma de todos.
+#     '''
+#
+#     return sum(numeros)
+#
+# print(soma_total(1, 2, 3))
+# print(soma_total(10, 20, 30, 40))
+# print(soma_total())
+
+
+# def exibir_informacoes(**informacoes):
+#     '''
+#     Esta função aceita um numero arbitrario de argumentos nomeados e os exibe.
+#     '''
+# for chave, valor in informacoes.items():
+#     print(f"{chave}: {valor}")
+#
+# exibir_informacoes(nome="ana", idade=35, cidade="sao paulo")
+# exibir_informacoes(produto="notebook", preco=2500.00, modelo="dell")
+
+
+##utilizando eval na especificação de escopo global
+
+# # Definindo uma expressão matemática em forma de string
+# x = 2
+# expressao = ('print("x + 3 * 5")')
+# # Usando eval para avaliar a expressão
+#
+# eval(expressao, {}, {'x': x})
+# # Exibindo o resultado
+
+#definindo uma expresão matematica em forma de string
+# x = 3
+#
+# def minha_funcao():
+#     global x
+#     x=4
+# minha_funcao()
+# print(x)
+#
+# code_str = """
+# result = []
+# for i in range(10):
+#     if i % 2 == 0:
+#         result.append(i)
+# print(result)
+# """
+# # Usando eval para executar a string como código Python
+# exec(code_str)
+
+
+# def fatorial(n):
+#     if n < 2:
+#         return 1
+#
+#
+#     fat = 1
+#     for i in range(2, n + 1):
+#         fat *= i
+#
+#     return fat
+# print(fatorial(8))
+#
+# def fatorial(n):
+#     if n < 2:
+#         return 1
+#
+#     return n * fatorial(n - 1)
+#
+# print(fatorial(999))
+
+
+def multiplicaçao(m,n):
+    if m == 0 or n == 0:
+        return 0
+    if n == 1:
+        return m
+
+    return m + multiplicaçao(m, n -1)
+print(multiplicaçao(5, 2))
+
+def contaegem_regressiva(m):
+    print(m)
+    if m == 0:
+        return 0
+    return contaegem_regressiva(m-1)
+
+contaegem_regressiva(5)
+
+frase = 'Meu ovo '
+
+vogais = ['a', 'e', 'i', 'o', 'u']
+
+
+def vogal():
+    if
